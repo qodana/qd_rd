@@ -6,4 +6,6 @@ public class NewFile
   {
     int a = 42;
   }
+
+  void Bar() {}
 }
