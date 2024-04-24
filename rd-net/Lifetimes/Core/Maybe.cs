@@ -50,6 +50,7 @@ namespace JetBrains.Core
 
     public override bool Equals(object obj)
     {
+      var a = 5;
       if (!(obj is Maybe<T>)) return false;
       return Equals((Maybe<T>)obj);
     }
